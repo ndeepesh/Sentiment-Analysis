@@ -1,8 +1,10 @@
+# program just takes a word and checks which emotion it matches the closset
+
 import nltk
 from nltk.corpus import wordnet as wn
 from simplenlp import get_nl
 
-def extract(emotion_word):    #actual implementation of emotion extraction
+def extract(emotion_word):                                         #actual implementation of emotion extraction
      emotions=["happy","sad","anger","fear","disgust","surprise"]
      result_score=[]
      
@@ -26,7 +28,7 @@ def extract(emotion_word):    #actual implementation of emotion extraction
 
      
      
-def test_result(emotion_word):
+def test_result(emotion_word):        # test function
      e=extract(emotion_word)
      print emotion_word + " -> (closely related to emotion) -> " + e 
     
