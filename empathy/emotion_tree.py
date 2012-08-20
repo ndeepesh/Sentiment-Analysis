@@ -50,5 +50,15 @@ for i in range(len(keys)):
 	d[a].add_child( name=values[i])
 
 print d["root"]
+'''
+values = list(set(values))
 
+f = open('wn.emotions', 'w')
 
+for i in values:
+	print >> f, i 
+	f.flush()
+
+f.close()
+
+'''
