@@ -1,0 +1,423 @@
+ root 
+
+ mental-state  isa  root 
+ physical-state  isa  root 
+ behaviour  isa  root 
+ situation  isa  root 
+ signal  isa  root 
+ trait  isa  root 
+ sensation  isa  root 
+
+ cognitive-state  isa  mental-state 
+ affective-state  isa  mental-state 
+ cognitive-affective-state  isa  mental-state 
+
+ mood  isa  affective-state 
+ emotion  isa  affective-state 
+
+ emotion-eliciting-situation  isa  situation 
+
+ edonic-signal  isa  signal 
+
+ positive-emotion  isa  emotion 
+ negative-emotion  isa  emotion 
+ neutral-emotion  isa  emotion 
+ ambiguous-emotion  isa  emotion 
+
+ joy  isa  positive-emotion 
+ love  isa  positive-emotion 
+ affection  isa  positive-emotion 
+ liking  isa  positive-emotion 
+ enthusiasm  isa  positive-emotion 
+ gratitude  isa  positive-emotion 
+ self-pride  isa  positive-emotion 
+ levity  isa  positive-emotion 
+ calmness  isa  positive-emotion 
+ fearlessness  isa  positive-emotion 
+ positive-expectation  isa  positive-emotion 
+ positive-fear  isa  positive-emotion 
+ positive-hope  isa  positive-emotion 
+
+ amusement  isa  joy 
+ elation  isa  joy 
+ exultation  isa  joy 
+ exhilaration  isa  joy 
+ exuberance  isa  joy 
+ happiness  isa  joy 
+ bonheur  isa  joy 
+ gladness  isa  joy 
+ merriment  isa  joy 
+ rejoicing  isa  joy 
+ belonging  isa  joy 
+ cheerfulness  isa  joy 
+ contentment  isa  joy 
+
+ euphoria  isa  elation 
+
+ triumph  isa  exultation 
+
+ bang  isa  exhilaration 
+ titillation  isa  exhilaration 
+
+ hilarity  isa  merriment 
+ jocundity  isa  merriment 
+ jollity  isa  merriment 
+
+ comfortableness  isa  belonging 
+ closeness  isa  belonging 
+
+ togetherness  isa  closeness 
+
+ buoyancy  isa  cheerfulness 
+ carefreeness  isa  cheerfulness 
+
+ satisfaction  isa  contentment 
+
+ satisfaction-pride  isa  satisfaction 
+ complacency  isa  satisfaction 
+ fulfillment  isa  satisfaction 
+ gloat  isa  satisfaction 
+
+ smugness  isa  complacency 
+
+ attachment  isa  affection 
+ protectiveness  isa  affection 
+ regard  isa  affection 
+ soft-spot  isa  affection 
+
+ sympathy  isa  liking 
+ fondness  isa  liking 
+ captivation  isa  liking 
+ preference  isa  liking 
+ friendliness  isa  liking 
+ approval  isa  liking 
+ admiration  isa  liking 
+
+ positive-concern  isa  sympathy 
+ kindheartedness  isa  sympathy 
+ compatibility  isa  sympathy 
+ empathy  isa  sympathy 
+
+ softheartedness  isa  positive-concern 
+
+ identification  isa  empathy 
+
+ weakness  isa  preference 
+
+ amicability  isa  friendliness 
+ good-will  isa  friendliness 
+ brotherhood  isa  friendliness 
+
+ favor  isa  approval 
+
+ hero-worship  isa  admiration 
+
+ gusto  isa  enthusiasm 
+ eagerness  isa  enthusiasm 
+ exuberance  isa  enthusiasm 
+
+ enthusiasm-ardor  isa  eagerness 
+
+ worship  isa  love 
+ love-ardor  isa  love 
+ amorousness  isa  love 
+ puppy-love  isa  love 
+ devotion  isa  love 
+ benevolence  isa  love 
+ lovingness  isa  love 
+ loyalty  isa  love 
+
+ beneficence  isa  benevolence 
+
+ warmheartedness  isa  lovingness 
+
+ gratefulness  isa  gratitude 
+
+ self-esteem  isa  self-pride 
+ ego  isa  self-pride 
+ amour-propre  isa  self-pride 
+
+ playfulness  isa  levity 
+
+ placidity  isa  calmness 
+ coolness  isa  calmness 
+ tranquillity  isa  calmness 
+
+ peace  isa  tranquillity 
+ easiness  isa  tranquillity 
+
+ positive-languor  isa  easiness 
+
+ security  isa  fearlessness 
+
+ confidence  isa  security 
+
+ anticipation  isa  positive-expectation 
+
+ positive-suspense  isa  anticipation 
+
+ frisson  isa  positive-fear 
+
+ hopefulness  isa  positive-hope 
+ encouragement  isa  positive-hope 
+ optimism  isa  positive-hope 
+
+ sanguinity  isa  optimism 
+
+ negative-fear  isa  negative-emotion 
+ sadness  isa  negative-emotion 
+ general-dislike  isa  negative-emotion 
+ ingratitude  isa  negative-emotion 
+ shame  isa  negative-emotion 
+ compassion  isa  negative-emotion 
+ humility  isa  negative-emotion 
+ despair  isa  negative-emotion 
+ anxiety  isa  negative-emotion 
+ daze  isa  negative-emotion 
+
+ alarm  isa  negative-fear 
+ creeps  isa  negative-fear 
+ horror  isa  negative-fear 
+ hysteria  isa  negative-fear 
+ panic  isa  negative-fear 
+ scare  isa  negative-fear 
+ stage-fright  isa  negative-fear 
+ apprehension  isa  negative-fear 
+ timidity  isa  negative-fear 
+ fear-intimidation  isa  negative-fear 
+ negative-unconcern  isa  negative-fear 
+
+ trepidation  isa  apprehension 
+ foreboding  isa  apprehension 
+ negative-suspense  isa  apprehension 
+ chill  isa  apprehension 
+
+ shadow  isa  foreboding 
+ presage  isa  foreboding 
+
+ shyness  isa  timidity 
+ diffidence  isa  timidity 
+
+ hesitance  isa  diffidence 
+ unassertiveness  isa  diffidence 
+
+ heartlessness  isa  negative-unconcern 
+
+ cruelty  isa  heartlessness 
+
+ dolefulness  isa  sadness 
+ melancholy  isa  sadness 
+ misery  isa  sadness 
+ forlornness  isa  sadness 
+ weepiness  isa  sadness 
+ sorrow  isa  sadness 
+ cheerlessness  isa  sadness 
+ depression  isa  sadness 
+ downheartedness  isa  sadness 
+
+ gloom  isa  melancholy 
+ heavyheartedness  isa  melancholy 
+ world-weariness  isa  melancholy 
+
+ lost-sorrow  isa  sorrow 
+ regret-sorrow  isa  sorrow 
+
+ grief  isa  lost-sorrow 
+ mournfulness  isa  lost-sorrow 
+ self-pity  isa  lost-sorrow 
+
+ dolor  isa  grief 
+
+ woe  isa  mournfulness 
+ plaintiveness  isa  mournfulness 
+
+ attrition  isa  regret-sorrow 
+ compunction  isa  regret-sorrow 
+
+ guilt  isa  compunction 
+ repentance  isa  compunction 
+
+ joylessness  isa  cheerlessness 
+
+
+ demoralization  isa  depression 
+ helplessness  isa  depression 
+ despondency  isa  depression 
+ oppression  isa  depression 
+ dysphoria  isa  depression 
+
+ blue-devils  isa  despondency 
+
+ weight  isa  oppression 
+
+ anger  isa  general-dislike 
+ hate  isa  general-dislike 
+ dislike  isa  general-dislike 
+
+ fury  isa  anger 
+ infuriation  isa  anger 
+ umbrage  isa  anger 
+ indignation  isa  anger 
+ huffiness  isa  anger 
+ dander  isa  anger 
+ bad-temper  isa  anger 
+ annoyance  isa  anger 
+
+ wrath  isa  fury 
+ lividity  isa  fury 
+
+ dudgeon  isa  indignation 
+
+ irascibility  isa  bad-temper 
+ fit  isa  bad-temper 
+
+ pique  isa  annoyance 
+ frustration  isa  annoyance 
+ aggravation  isa  annoyance 
+ harassment  isa  annoyance 
+ displeasure  isa  annoyance 
+
+ abhorrence  isa  hate 
+ misanthropy  isa  hate 
+ misogamy  isa  hate 
+ misogyny  isa  hate 
+ misology  isa  hate 
+ misoneism  isa  hate 
+ misopedia  isa  hate 
+ murderousness  isa  hate 
+ despisal  isa  hate 
+ hostility  isa  hate 
+ malevolence  isa  hate 
+
+ misocainea  isa  misoneism 
+
+ animosity  isa  hostility 
+ class-feeling  isa  hostility 
+ antagonism  isa  hostility 
+ aggression  isa  hostility 
+ belligerence  isa  hostility 
+ resentment  isa  hostility 
+
+ warpath  isa  belligerence 
+
+ heartburning  isa  resentment 
+ sulkiness  isa  resentment 
+ grudge  isa  resentment 
+ envy  isa  resentment 
+
+ covetousness  isa  envy 
+ jealousy  isa  envy 
+
+ maleficence  isa  malevolence 
+ malice  isa  malevolence 
+ vindictiveness  isa  malevolence 
+
+ disinclination  isa  dislike 
+ unfriendliness  isa  dislike 
+ alienation  isa  dislike 
+ antipathy  isa  dislike 
+ disapproval  isa  dislike 
+ contempt  isa  dislike 
+ disgust  isa  dislike 
+
+ isolation  isa  alienation 
+
+ repugnance  isa  disgust 
+ nausea  isa  disgust 
+
+ conscience  isa  shame 
+ self-disgust  isa  shame 
+ embarrassment  isa  shame 
+
+ self-consciousness  isa  embarrassment 
+ shamefacedness  isa  embarrassment 
+ chagrin  isa  embarrassment 
+ confusion  isa  embarrassment 
+ abashment  isa  embarrassment 
+ discomfiture  isa  embarrassment 
+
+ commiseration  isa  compassion 
+ tenderness  isa  compassion 
+ mercifulness  isa  compassion 
+
+ forgiveness  isa  mercifulness 
+
+ self-depreciation  isa  humility 
+ meekness  isa  humility 
+
+ hopelessness  isa  despair 
+ resignation  isa  despair 
+ discouragement  isa  despair 
+ pessimism  isa  despair 
+
+ defeatism  isa  resignation 
+
+ despair-intimidation  isa  discouragement 
+
+ cynicism  isa  pessimism 
+
+ discomfiture  isa  anxiety 
+ negative-agitation  isa  anxiety 
+ distress  isa  anxiety 
+ negative-concern  isa  anxiety 
+ anxiousness  isa  anxiety 
+ insecurity  isa  anxiety 
+ edginess  isa  anxiety 
+ sinking  isa  anxiety 
+ scruple  isa  anxiety 
+ jitteriness  isa  anxiety 
+ angst  isa  anxiety 
+ anxiousness  isa  anxiety 
+ solicitude  isa  anxiety 
+
+ fidget  isa  negative-agitation 
+ stewing  isa  negative-agitation 
+ tumult  isa  negative-agitation 
+
+ impatience  isa  fidget 
+
+ apathy  isa  neutral-emotion 
+ neutral-unconcern  isa  neutral-emotion 
+
+ emotionlessness  isa  apathy 
+ neutral-languor  isa  apathy 
+
+ indifference  isa  neutral-unconcern 
+
+ distance  isa  indifference 
+ withdrawal  isa  indifference 
+
+ thing  isa  ambiguous-emotion 
+ gravity  isa  ambiguous-emotion 
+ surprise  isa  ambiguous-emotion 
+ ambiguous-agitation  isa  ambiguous-emotion 
+ ambiguous-fear  isa  ambiguous-emotion 
+ pensiveness  isa  ambiguous-emotion 
+ ambiguous-expectation  isa  ambiguous-emotion 
+
+ earnestness  isa  gravity 
+
+ astonishment  isa  surprise 
+
+ wonder  isa  astonishment 
+ surprise  isa  astonishment 
+ stupefaction  isa  astonishment 
+
+ awe  isa  wonder 
+
+ unrest  isa  ambiguous-agitation 
+ stir  isa  ambiguous-agitation 
+ tumult  isa  ambiguous-agitation 
+
+ electricity  isa  stir 
+ sensation  isa  stir 
+
+ reverence  isa  ambiguous-fear 
+
+ ambiguous-hope  isa  ambiguous-expectation 
+ fever  isa  ambiguous-expectation 
+
+ buck-fever  isa  fever 
+
+</categ-list>
+
