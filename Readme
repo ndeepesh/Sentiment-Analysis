@@ -1,11 +1,11 @@
 
-VERY BASIC Keyword Spotting using WN and CN
+VERY BASIC Keyword Spotting using Wordnet and Conceptnet
 
 Main File -> cn_tup_matching.py
 
 rest of the files are used in the main file
 
-some_cn_tuples.txt -> contains some CN tuples
+some_cn_tuples.txt -> contains some Conceptnet tuples
 some_results.txt -> contains some sample results of the program
 
    
